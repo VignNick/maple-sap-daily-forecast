@@ -1,0 +1,148 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# virtualenv
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Data files (omit large or generated data)
+dataset_*.xlsx
+*.xlsx
+normalized_dataset.csv
+cleaned_sap_data.csv
+historical_weather.db
+*.db
+*.sqlite
+*.sqlite3
+Data/
+Data/*
+models_saves/
+models_saves/*
+results/
+results/*
+matrix_test/*/saved_models/
+matrix_test/*/saved_models/*
+matrix_test/*/results.yaml
+matrix_test/*/results*
+models_testing/*/*/saved_models/
+models_testing/*/*/*/saved_models/
+models_testing/best_models_graphs/
+models_testing/best_models_graphs/*
+rendering/
+
+# Cache folders
+.cache/
+
+# Logs
+*.log
+
+# Generated requirements/build artifacts
+pip-wheel-metadata/
+
+# Coverage and reports
+coverage.xml
+
+# Misc
+*.bak
+*~
+
+# Keep README, scripts, and source under version control
